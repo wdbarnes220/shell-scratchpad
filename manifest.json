@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "wdb.shell-scratchpad",
+  "name": "Shell Scratchpad",
+  "version": "1.0.0",
+  "author": "wdb",
+  "license": "MIT",
+  "description": "A bar widget that lets you run shell commands and view output in a popup panel — no terminal context-switch needed.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "ShellScratchpad.qml"
+  },
+  "barWidget": {
+    "displayName": "Shell Scratchpad",
+    "description": "Run a quick shell command from the bar and see its output inline.",
+    "category": "Productivity",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
